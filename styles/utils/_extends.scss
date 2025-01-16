@@ -1,0 +1,12 @@
+@use '../base/variables';
+
+%base-h2{
+    color: variables.$heading-color;
+    font-weight: 400;
+    margin: 2rem 0;
+}
+
+%base-p{
+    margin-bottom: variables.$margin-bottom-regular;
+    line-height: 1.6;
+}
